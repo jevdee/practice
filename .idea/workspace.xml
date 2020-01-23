@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Kakao/Kakao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/HackerRank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/HackerRank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kakao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Kakao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kakao/src/main/java/Q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Kakao/src/main/java" />
@@ -33,6 +29,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\practice\Kakao\src\main\java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\practice\Kakao\src\main\java" />
       <recent name="C:\Users\user\IdeaProjects\practice\HackerRank\src\main\java" />
@@ -68,22 +67,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579766240934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="split kakao">
+      <created>1579766525533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579766525533</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload" />
+    <MESSAGE value="kakao removed" />
+    <MESSAGE value="split kakao" />
+    <option name="LAST_COMMIT_MESSAGE" value="split kakao" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Project_Structure" timestamp="1579764590443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579764590443" />
-    <state x="587" y="114" key="CommitChangelistDialog2" timestamp="1579766239203">
+    <state x="587" y="114" key="CommitChangelistDialog2" timestamp="1579766727522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579766239203" />
+    <state x="587" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579766727522" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1579766684035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579766684035" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579766323232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
