@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="Solve CommonChild">
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/CountingValleys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/JumpingOnTheClouds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/MinimumSwaps2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/RepeatedString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/SockMerchant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kakao/src/main/java/Q7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/HackerRank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/HackerRank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/java/SpecialStringAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/java/SpecialStringAgain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kakao/Kakao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kakao/Kakao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/java/FraudulentActivityNotifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/java/FraudulentActivityNotifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/target/classes/FraudulentActivityNotifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/target/classes/FraudulentActivityNotifications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/target/classes/SpecialStringAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/target/classes/SpecialStringAgain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579769622465</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge all">
+      <created>1579788229794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579788229794</updated>
+    </task>
+    <task id="LOCAL-00008" summary="version setting">
+      <created>1579788313069</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579788313069</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,18 +200,24 @@
     <MESSAGE value="move resources" />
     <MESSAGE value="import junit" />
     <MESSAGE value="Solve CommonChild" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve CommonChild" />
+    <MESSAGE value="Merge all" />
+    <MESSAGE value="version setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="version setting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="238" width="816" height="641" key="#Project_Structure" timestamp="1579769386637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="403" y="238" width="816" height="641" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579769386637" />
-    <state x="457" y="125" width="1182" height="882" key="CommitChangelistDialog2" timestamp="1579788228836">
+    <state x="457" y="125" width="1182" height="882" key="CommitChangelistDialog2" timestamp="1579793788245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="457" y="125" width="1182" height="882" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788228836" />
+    <state x="457" y="125" width="1182" height="882" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793788245" />
     <state x="535" y="204" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579769621137" />
+    <state width="390" height="466" key="DebuggerActiveHint" timestamp="1579788998609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="390" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788998609" />
     <state x="82" y="103" width="1536" height="858" key="DiffContextDialog" timestamp="1579788265099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,37 +228,45 @@
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788058115" />
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579769168244" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579778306089">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579793693642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579778306089">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579793693642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579778306089">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579793693642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579778306089">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579793693642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579778293692">
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1579792822578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293692" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579778293691">
+    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1579792822578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293691" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579778293691">
+    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1579792822578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293691" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579778293692">
+    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1579792822578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293692" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1579766684035">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -263,10 +280,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579769429070" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579788272280">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579788320631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788272280" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788320631" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579769643517" />
     <state x="716" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1579766310454">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -296,6 +313,11 @@
           <url>file://$PROJECT_DIR$/HackerRank/src/main/java/MarkandToys.java</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/FraudulentActivityNotifications.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
