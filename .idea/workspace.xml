@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/HackerRank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/AlternatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/ArrayManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/CountTriplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/FrequencyQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/HashTablesRansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/NewYearChaos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/Q6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/SherlockAndAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/SherlockandtheValidString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/SpecialStringAgain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/StringsMakingAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/TwoStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/input07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/output07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/test_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WmhFB9G85ak11AzEAmzeZLNnoD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HackerRank/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\practice\HackerRank\src\main\java" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="" />
+      <created>1579760571686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579760571686</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Project_Structure" timestamp="1579764590443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579764590443" />
+    <state x="339" y="215" key="new project wizard" timestamp="1579764525562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="339" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1579764525562" />
+  </component>
+</project>
