@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="">
+    <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="version setting">
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/MakingCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/java/FraudulentActivityNotifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/java/FraudulentActivityNotifications.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/target/classes/FraudulentActivityNotifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/target/classes/FraudulentActivityNotifications.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/target/classes/SpecialStringAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/target/classes/SpecialStringAgain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/java/MaximumSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/java/MaximumSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/test/java/AlternatingCharactersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/target/classes/HashTablesIceCreamParlor.class" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/target/classes/HashTablesIceCreamParlor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/target/test-classes/AlternatingCharactersTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,42 +52,21 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\practice\HackerRank\src\main\resources" />
+      <recent name="C:\Users\user\IdeaProjects\practice\Kakao\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jev\IdeaProjects\practice\Kakao\src\main\java" />
       <recent name="C:\Users\jev\IdeaProjects\practice\HackerRank\src\main\java" />
       <recent name="C:\Users\user\IdeaProjects\practice\Kakao\src\main\java" />
       <recent name="C:\Users\user\IdeaProjects\practice\HackerRank\src\main\java" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\practice\HackerRank\src\main\resources" />
-      <recent name="C:\Users\user\IdeaProjects\practice\Kakao\src\main\java" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.FraudulentActivityNotifications">
-    <configuration name="Array2DDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array2DDS" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysLeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysLeftRotation" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonChild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonChild" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MakingCandies">
     <configuration name="FraudulentActivityNotifications" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FraudulentActivityNotifications" />
       <module name="HackerRank" />
@@ -93,8 +74,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarkandToys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MarkandToys" />
+    <configuration name="MakingCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MakingCandies" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumTimeRequired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumTimeRequired" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapNodesAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwapNodesAlgo" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triplesum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Triplesum" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakingCandies" />
+        <item itemvalue="Application.MinimumTimeRequired" />
+        <item itemvalue="Application.Triplesum" />
+        <item itemvalue="Application.SwapNodesAlgo" />
         <item itemvalue="Application.FraudulentActivityNotifications" />
-        <item itemvalue="Application.MarkandToys" />
-        <item itemvalue="Application.ArraysLeftRotation" />
-        <item itemvalue="Application.Array2DDS" />
-        <item itemvalue="Application.CommonChild" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579788313069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="version setting">
+      <created>1580298142690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580298142690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,19 +214,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="version setting" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="403" y="238" width="816" height="641" key="#Project_Structure" timestamp="1579769386637">
+    <state x="403" y="238" width="816" height="641" key="#Project_Structure" timestamp="1580165802015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="403" y="238" width="816" height="641" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579769386637" />
-    <state x="457" y="125" width="1182" height="882" key="CommitChangelistDialog2" timestamp="1579793788245">
+    <state x="403" y="238" width="816" height="641" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580165802015" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1580185763337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580185763337" />
+    <state x="535" y="204" width="1182" height="882" key="CommitChangelistDialog2" timestamp="1580298149931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="457" y="125" width="1182" height="882" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793788245" />
-    <state x="535" y="204" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579769621137" />
-    <state width="390" height="466" key="DebuggerActiveHint" timestamp="1579788998609">
+    <state x="535" y="204" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580298149931" />
+    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1580169781317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="390" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788998609" />
+    <state width="414" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1580169781317" />
     <state x="82" y="103" width="1536" height="858" key="DiffContextDialog" timestamp="1579788265099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,46 +242,46 @@
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788058115" />
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579769168244" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579793693642">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579793693642">
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579793693642">
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579793693642">
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579793693642" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579778306089" />
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1579792822578">
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293692" />
-    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1579792822578">
+    <state width="1877" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.1.center" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293691" />
-    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1579792822578">
+    <state width="1877" height="266" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.1.left" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293691" />
-    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1579792822578">
+    <state width="1877" height="266" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
+    <state width="1877" height="266" key="GridCell.Tab.1.right" timestamp="1580453959078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579792822578" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579778293692" />
+    <state width="1877" height="266" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580453959078" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1579766684035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -280,11 +294,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579769429070" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579788320631">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580444392372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579788320631" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579769643517" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580444392372" />
     <state x="716" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1579766310454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -293,6 +307,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="99" y="138" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579767270344" />
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580453986676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580453986675" />
     <state x="357" y="497" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579767505432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,6 +319,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579767834561" />
+    <state x="692" y="311" key="git4idea.merge.GitPullDialog" timestamp="1580444397887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580444397887" />
     <state x="339" y="215" key="new project wizard" timestamp="1579767382301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,7 +341,26 @@
           <line>27</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/MinimumTimeRequired.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="goal" />
+        <watch expression="product" />
+        <watch expression="min" />
+        <watch expression="max" language="JAVA" />
+        <watch expression="mid" />
+        <watch expression="day" />
+        <watch expression="candies" />
+        <watch expression="m" />
+        <watch expression="w" />
+        <watch expression="production" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
