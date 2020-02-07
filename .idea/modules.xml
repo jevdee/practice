@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/HackerRank/HackerRank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kakao/Kakao.iml" filepath="$PROJECT_DIR$/Kakao/Kakao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaPractice/LambdaPractice.iml" filepath="$PROJECT_DIR$/LambdaPractice/LambdaPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
     </modules>
   </component>
