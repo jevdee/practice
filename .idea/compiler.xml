@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LambdaPractice" />
         <module name="HackerRank" />
+        <module name="LambdaPractice" />
         <module name="Kakao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="HackerRank" target="1.5" />
-      <module name="Kakao" target="1.5" />
-      <module name="LambdaPractice" target="1.5" />
+      <module name="HackerRank" target="8" />
+      <module name="Kakao" target="8" />
+      <module name="LambdaPractice" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
