@@ -2,16 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/CastleontheGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/PoisonousPlants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/resources/input02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/resources/input02.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="RunManager">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XyhhUlLHHWYeG5cqBRySbS0SBQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.PoisonousPlants">
+    <configuration name="CastleontheGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CastleontheGrid" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinMaxRiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinMaxRiddle" />
       <module name="HackerRank" />
@@ -19,8 +45,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PoisonousPlants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PoisonousPlants" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PoisonousPlants" />
+        <item itemvalue="Application.CastleontheGrid" />
         <item itemvalue="Application.MinMaxRiddle" />
       </list>
     </recent_temporary>
@@ -41,53 +76,88 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="MinMaxRiddle 완료">
+      <created>1581948536097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581948536097</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="" />
+      <created>1582024361798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582024361798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MinMaxRiddle 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="MinMaxRiddle 완료" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="452" key="GridCell.Tab.0.bottom" timestamp="1581948382119">
+    <state x="129" y="72" width="1160" height="812" key="CommitChangelistDialog2" timestamp="1581948535138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="129" y="72" width="1160" height="812" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948535138" />
+    <state width="410" height="466" key="DebuggerActiveHint" timestamp="1582026988544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="410" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582026988544" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582030800618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944938404" />
-    <state width="1877" height="452" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948382119" />
-    <state width="1877" height="452" key="GridCell.Tab.0.center" timestamp="1581948382118">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030800618" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582030800618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944938403" />
-    <state width="1877" height="452" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948382118" />
-    <state width="1877" height="452" key="GridCell.Tab.0.left" timestamp="1581948382118">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030800618" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582030800618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944938403" />
-    <state width="1877" height="452" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948382118" />
-    <state width="1877" height="452" key="GridCell.Tab.0.right" timestamp="1581948382119">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030800618" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582030800618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944938404" />
-    <state width="1877" height="452" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948382119" />
-    <state width="1877" height="458" key="GridCell.Tab.1.bottom" timestamp="1581948331291">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030800618" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582030267180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944903904" />
-    <state width="1877" height="458" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948331291" />
-    <state width="1877" height="458" key="GridCell.Tab.1.center" timestamp="1581948331291">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030267180" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582030267180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944903904" />
-    <state width="1877" height="458" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948331291" />
-    <state width="1877" height="458" key="GridCell.Tab.1.left" timestamp="1581948331291">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030267180" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582030267180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944903904" />
-    <state width="1877" height="458" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948331291" />
-    <state width="1877" height="458" key="GridCell.Tab.1.right" timestamp="1581948331291">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030267180" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582030267180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="407" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581944903904" />
-    <state width="1877" height="458" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948331291" />
-    <state x="692" y="311" key="git4idea.merge.GitPullDialog" timestamp="1581937012494">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582030267180" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581948538900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581937012494" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1581948538900" />
+    <state x="692" y="311" key="git4idea.merge.GitPullDialog" timestamp="1582024475179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582024475179" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1582029910488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582029910488" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581945753309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -97,24 +167,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="69" />
+          <url>file://$PROJECT_DIR$/HackerRank/src/main/java/CastleontheGrid.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
