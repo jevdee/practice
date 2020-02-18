@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="112533d1-21c5-4106-a4a7-b61ef9ca7d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/main/java/CastleontheGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/java/MinMaxRiddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/main/resources/input02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/main/resources/input02.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="RunManager">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.CastleontheGrid">
+    <configuration name="CastleontheGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CastleontheGrid" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinMaxRiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinMaxRiddle" />
       <module name="HackerRank" />
@@ -21,6 +37,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CastleontheGrid" />
         <item itemvalue="Application.MinMaxRiddle" />
       </list>
     </recent_temporary>
@@ -44,6 +61,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1582016768401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582016768401" />
     <state width="1877" height="452" key="GridCell.Tab.0.bottom" timestamp="1581948382119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
