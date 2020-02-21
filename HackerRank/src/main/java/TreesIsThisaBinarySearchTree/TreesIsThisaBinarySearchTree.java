@@ -1,7 +1,18 @@
+package TreesIsThisaBinarySearchTree;
 import java.util.Scanner;
 
+class Node {
+    int data;
+    Node left;
+    Node right;
+
+    public Node(int data) {
+        this.data = data;
+    }
+}
+
 public class TreesIsThisaBinarySearchTree {
-    static boolean checkBST(Node2 root) {
+    static boolean checkBST(Node root) {
         int data = root.data;
         boolean left = true, right = true;
         if(root.left != null) {
@@ -24,13 +35,13 @@ public class TreesIsThisaBinarySearchTree {
 
     }
 
-    public static Node2 insert(Node2 root, int data) {
+    public static Node insert(Node root, int data) {
         if(root == null) {
 //            if(data == 5)
 //                data = 1;
-            return new Node2(data);
+            return new Node(data);
         } else {
-            Node2 cur;
+            Node cur;
             if(data <= root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
@@ -45,7 +56,7 @@ public class TreesIsThisaBinarySearchTree {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
-        Node2 root = null;
+        Node root = null;
         while(t-- > 0) {
             int data = scan.nextInt();
             root = insert(root, data);
