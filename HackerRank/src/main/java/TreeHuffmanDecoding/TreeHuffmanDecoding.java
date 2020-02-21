@@ -11,6 +11,11 @@ abstract class Node implements Comparable<Node> {
 
     // compares on the frequency
     public int compareTo(Node tree) {
+        System.out.println("data = " + data);
+        System.out.println("frequency = " + frequency);
+        System.out.println("tree.frequency = " + tree.frequency);
+        System.out.println("tree.data = " + tree.data);
+        System.out.println("## frequency - tree.frequency = " + (frequency - tree.frequency));
         return frequency - tree.frequency;
     }
 }
@@ -46,9 +51,32 @@ class Decoding {
 */
 
     void decode(String s, Node root) {
+        int i=0;
+        Node n = root;
+        String res = "";
+        //s="1 00 1 01 1"
+        char c;
+        while(i < s.length()) {
+            if(n == root || !isLeaf(n)) {
+                c = s.charAt(i);
+                if(c == '0') {
+                    n = n.left;
+                } else {
+                    n = n.right;
+                }
+                i++;
+            }
 
+            if(isLeaf(n)) {
+                res += n.data;
+                n = root;
+            }
+        }
+        System.out.println(res);
+    }
 
-
+    boolean isLeaf(Node n) {
+        return (n.left == null && n.right == null);
     }
 
 
