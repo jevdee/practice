@@ -12,6 +12,7 @@ class Node {
 }
 
 public class TreesIsThisaBinarySearchTree {
+
     static boolean checkBST(Node root) {
         int data = root.data;
         boolean left = true, right = true;
@@ -34,6 +35,27 @@ public class TreesIsThisaBinarySearchTree {
         return left && right;
 
     }
+
+//    boolean checkBST(Node root) {
+//        boolean left = true;
+//        boolean right = true;
+//        if(isLeaf(root))
+//            return true;
+//        else if(root.left != null && root.left.data >= root.data)
+//            left = false;
+//        else if(root.right != null && root.right.data <= root.data)
+//            right = false;
+//        else {
+//            left = checkBST(root.left);
+//            right = checkBST(root.right);
+//        }
+//
+//        return left && right;
+//    }
+//
+//    boolean isLeaf(Node n) {
+//        return (n.left == null) && (n.right == null);
+//    }
 
     public static Node insert(Node root, int data) {
         if(root == null) {
