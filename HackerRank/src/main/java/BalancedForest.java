@@ -23,7 +23,7 @@ class Node {
 }
 
 public class BalancedForest {
-    public static int balancedForest(int[] c, int[][] edges) {
+    public static long balancedForest(int[] c, int[][] edges) {
 
         int rootNumber = getRootOfLowestHeightTree(c, edges);
         int[][] adjacentMatrix = new int[c.length][c.length];
@@ -31,35 +31,62 @@ public class BalancedForest {
             adjacentMatrix[a[0]-1][a[1]-1] = 1;
             adjacentMatrix[a[1]-1][a[0]-1] = 1;
         }
-        Node root = generateTree(rootNumber, adjacentMatrix, c);
+        Node root = new Node(rootNumber, c[rootNumber]);
+        root = generateTree(rootNumber, root, adjacentMatrix, c);
         long totalSum = generateSum(root);
 
+        long[] res = findCuttingEdge(totalSum, root, -1);
+        if(res[0] < 0)
+            return -1;
+        else
+            return res[1];
+//        System.out.println();
 
 
-
-        System.out.println();
-
-        return -1;
     }
 
-    public static int findCuttingEdge(long totalSum, Node root) {
+    public static long[] findCuttingEdge(long totalSum, Node root, long flag) {
         if(isDummy(root)) {
-            return 0;
+            return new long[]{flag, 0};
         }
 
-
-        if(root.children.size() > 3) {
-            int i=0;
-            while(i < root.children.size()) {
-                Node n = root.children.get(i);
-                findCuttingEdge(totalSum, n);
-
-
-                i++;
+        int i=0;
+        long[] sums = new long[root.children.size()];
+        while(i < root.children.size()) {
+            Node n = root.children.get(i);
+            long[] res = findCuttingEdge(totalSum, n, flag);
+            if(res[0] < 0) {
+                if(res[1] >= totalSum)
+                    return new long[]{-1, -1};
+                else
+                    sums[i] = res[1];
+            } else {
+                return res;
             }
+
+            i++;
+        }
+
+        i=0;
+        int a = (int) Math.ceil((double) totalSum / (root.children.size()-1));
+        while(i < root.children.size()) {
+
+            if(a <= sums[i]) {
+                for (int j = 0; j < root.children.size(); j++) {
+                    if(i == j)
+                        continue;
+//                    long aa = totalSum - sums[i] - sums[j];
+//                    long bb = totalSum - sums[i];
+                    if(((totalSum - sums[i] - sums[j]) == sums[i]) || (sums[i] == sums[j])) {
+                        return new long[]{1, sums[i] - (totalSum - (2*sums[i]))};
+                    }
+                }
+            }
+            i++;
         }
 
 
+        return new long[]{flag, root.sumOfSubtreeIncludeMe};
 
     }
 
@@ -120,8 +147,7 @@ public class BalancedForest {
         return root.sumOfSubtreeIncludeMe;
     }
 
-    public static Node generateTree(int rootNumber, int[][] adjacentMatrix, int[] c) {
-        Node root = new Node(rootNumber, c[rootNumber]);
+    public static Node generateTree(int rootNumber, Node root, int[][] adjacentMatrix, int[] c) {
         root.children = new ArrayList<>();
         root.children.add(new Node(-1, 0));      //add dummy node
 
@@ -133,7 +159,7 @@ public class BalancedForest {
                     root.children.add(node);
                     adjacentMatrix[rootNumber][i] = 0;
                     adjacentMatrix[i][rootNumber] = 0;
-                    generateTree(i, adjacentMatrix, c);
+                    generateTree(i, node, adjacentMatrix, c);
                 }
             }
         }
@@ -165,7 +191,7 @@ public class BalancedForest {
                 }
             }
 
-            int result = balancedForest(c, edges);
+            long result = balancedForest(c, edges);
             System.out.println(result);
         }
     }
