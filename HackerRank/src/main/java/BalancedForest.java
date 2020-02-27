@@ -23,6 +23,18 @@ class Node {
 }
 
 public class BalancedForest {
+//1
+//8
+//1 1 1 18 10 11 5 6
+//1 2
+//1 4
+//2 3
+//1 8
+//8 7
+//7 6
+//5 7
+    //답: 10
+
     public static long balancedForest(int[] c, int[][] edges) {
 
         int rootNumber = getRootOfLowestHeightTree(c, edges);
