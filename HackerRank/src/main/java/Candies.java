@@ -32,7 +32,7 @@ public class Candies {
         long sum = 0;
         for (int i= 0; i < candies.length; i++){
             sum += candies[i];
-            System.out.println(candies[i]);
+//            System.out.println(candies[i]);
         }
 
         System.out.println(sum);
