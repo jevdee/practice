@@ -4,9 +4,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 public class DFSConnectedCellinaGrid {
-//    4
+    //    4
 //    4
 //    1 1 0 0
 //    0 1 1 0
@@ -30,27 +31,28 @@ public class DFSConnectedCellinaGrid {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if(!visited[i][j]) {
-                    max = Math.max(max, dfs(i,j));
-                    visited[i][j] = true;
-                }
+                max = Math.max(max, dfs(i,j));
             }
         }
 
+        System.out.println(max);
     }
 
     public static int dfs(int x, int y) {
-        if(visited[x][y])
+        if(visited[x][y] || arr[x][y] == 0)
             return -1;
 
+        visited[x][y] = true;
         List<int[]> adjacentNodes = getAdjacentNodes(x,y);
         int max = 1;
-        for (int[] ad : adjacentNodes) {
-            if(!visited[x][y]) {
-                int t = dfs(ad[0],ad[1])+1;
-                max = Math.max(t, max);
-                visited[x][y] = true;
+        if(adjacentNodes.size() > 0) {
+            int t = 0;
+            for (int[] ad : adjacentNodes) {
+                if (!visited[ad[0]][ad[1]]) {
+                    t += dfs(ad[0], ad[1]);
+                }
             }
+            max = t+1;
         }
 
         return max;
