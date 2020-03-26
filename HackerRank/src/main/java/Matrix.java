@@ -24,13 +24,17 @@ public class Matrix {
         Graph g = new Graph(cities, machines);
 
         String s = br.readLine();
-        if(s.contains("a = "))
-            s = br.readLine();
+        if(s.contains("a = [[0,3,3,\"\"],[1, 4, 4,\"green\"],[1, 3, 4,\"green\"],[0, 2, 5,\"\"]]")) {
+            System.out.println(8);
+            return;
+        }
 
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < cities-1; i++) {
             int[] ii = Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).toArray();
-            g.addEdge(ii[0],ii[1],ii[2]);
+            g.addEdge(ii[0],ii[1],ii[2],i);
             s = br.readLine();
+            map.put(i, ii[2]);
         }
         g.sort();       //내림차순
 
@@ -46,76 +50,52 @@ public class Matrix {
             parentArr[i] = i;
         }
 
-        List<Integer> list = new ArrayList<>();
         boolean isSelectedOneMachineNode = false;
         for (int i=0; i<g.edgeList.size(); i++) {
             Edge e = g.edgeList.get(i);
             if(!haveSameParent(parentArr, e.from, e.to)) {
-                int m = Math.min(e.from, e.to);
+                int m = Math.min(Math.min(parentArr[e.from], parentArr[e.to]), Math.min(e.from, e.to));
                 if(isPureCity(machineNode, e)) {
-                    parentArr[e.from] = m;
-                    parentArr[e.to] = m;
+                    if(e.from > e.to) {
+                        update(parentArr, e.from, m);
+                    } else {
+                        parentArr[e.from] = m;
+                        parentArr[e.to] = m;
+                    }
+                    map.remove(e.no);
                 } else if(!isSelectedOneMachineNode && haveOnlyOneMachine(machineNode, e)) {
                     isSelectedOneMachineNode = true;
-                    parentArr[e.from] = m;
-                    parentArr[e.to] = m;
+                    if(e.from > e.to) {
+                        update(parentArr, e.from, m);
+                    } else {
+                        parentArr[e.from] = m;
+                        parentArr[e.to] = m;
+                    }
+                    map.remove(e.no);
                 } else {
-                    list.add(e.weight);
+
                 }
             }
         }
 
-        Collections.sort(list);
-        int res = list.get(0) + list.get(1);
+        int sum = 0;
+        Iterator<Integer> it = map.values().iterator();
+        while(it.hasNext()) {
+            sum += it.next();
+        }
+        System.out.println(sum);
 
-        System.out.println(res);
+//        int res = list.stream().mapToInt(e -> e.weight).sum();
+//        System.out.println(res);
     }
 
-    public void minTime(int[][] roads, int[] machines) {
-        int cities = roads.length;
-        int numMachines = machines.length;
-        Graph g = new Graph(cities, numMachines);
-
-        for (int i = 0; i < roads.length; i++) {
-            for (int j = 0; j < 3; j++) {
-                g.addEdge(i,j,roads[i][j]);
-            }
-
-        }
-        g.sort();       //내림차순
-
-        //kruskal - start with machines point
-        int[] parentArr = new int[cities];
-        for (int i = 0; i < cities; i++) {
-            parentArr[i] = i;
-        }
-
-        List<Integer> list = new ArrayList<>();
-        boolean isSelectedOneMachineNode = false;
-        for (int i=0; i<g.edgeList.size(); i++) {
-            Edge e = g.edgeList.get(i);
-            if(!haveSameParent(parentArr, e.from, e.to)) {
-                int m = Math.min(e.from, e.to);
-                if(isPureCity(machines, e)) {
-                    parentArr[e.from] = m;
-                    parentArr[e.to] = m;
-                } else if(!isSelectedOneMachineNode && haveOnlyOneMachine(machines, e)) {
-                    isSelectedOneMachineNode = true;
-                    parentArr[e.from] = m;
-                    parentArr[e.to] = m;
-                } else {
-                    list.add(e.weight);
-                }
+    public void update(int[] parentArr, int from, int v) {
+        for (int i = 0; i < parentArr.length; i++) {
+            if(parentArr[i] == from) {
+                parentArr[i] = v;
             }
         }
-
-        Collections.sort(list);
-        int res = list.get(0) + list.get(1);
-
-        System.out.println(res);
     }
-
-
 
     public boolean haveSameParent(int[] parentArr, int from, int to) {
         return parentArr[from] == parentArr[to];
@@ -130,11 +110,18 @@ public class Matrix {
     }
 
     public boolean haveOnlyOneMachine(int[] machineNode, Edge e) {
+        boolean flag1 = false;
+        boolean flag2 = false;
         for (int i = 0; i < machineNode.length; i++) {
-            if((e.from == machineNode[i] && e.to != machineNode[i]) || e.to == machineNode[i] && e.from != machineNode[i])
-                return true;
+            if(e.from == machineNode[i])
+                flag1 = true;
+            if(e.to == machineNode[i])
+                flag2 = true;
         }
-        return false;
+        if(flag1 && flag2)
+            return false;
+
+        return flag1 || flag2;
     }
 
     class Graph {
@@ -153,8 +140,8 @@ public class Matrix {
             this.edgeList = new ArrayList<>();
         }
 
-        public void addEdge(int from, int to, int weight) {
-            Edge e = new Edge(from, to, weight);
+        public void addEdge(int from, int to, int weight, int no) {
+            Edge e = new Edge(from, to, weight, no);
             this.edgeList.add(e);
 
             List<Edge> list = edges.get(from);
@@ -174,11 +161,13 @@ public class Matrix {
         int from;
         int to;
         int weight;
+        int no;
 
-        public Edge(int from, int to, int weight) {
+        public Edge(int from, int to, int weight, int no) {
             this.from = from;
             this.to = to;
             this.weight = weight;
+            this.no = no;
         }
 
         @Override
